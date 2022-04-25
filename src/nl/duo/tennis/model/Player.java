@@ -1,6 +1,14 @@
 package nl.duo.tennis.model;
 
+
+import java.util.Date;
+import java.sql.*;
+
+
 public class Player {
+
+    private String name;
+    private Date birthDate;
 
     // eigenschappen, fields, instance variable(s)
     int aantalWedstrijdenGespeelt = 0;
@@ -15,4 +23,11 @@ public class Player {
         aantalWedstrijdenGespeelt = aantalWedstrijdenGespeelt + 1;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

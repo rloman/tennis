@@ -1,3 +1,5 @@
+package nl.duo.tennis.model;
+
 public class Player {
 
     // eigenschappen, fields, instance variable(s)

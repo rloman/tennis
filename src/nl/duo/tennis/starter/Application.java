@@ -1,8 +1,14 @@
+package nl.duo.tennis.starter;
+
+
+import nl.duo.tennis.model.Player;
+import nl.duo.tennis.model.Racket;
+
 public class Application {
 
     public static void main(String[] args) {
-        // Class: Racket
-        // Object: mijnTennisRacket van type 'Racket'
+        // Class: nl.duo.tennis.model.Racket
+        // Object: mijnTennisRacket van type 'nl.duo.tennis.model.Racket'
         Racket mijnTennisRacket = new Racket();
 
         // 500 hier is nu het 'argument'

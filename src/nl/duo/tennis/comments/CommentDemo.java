@@ -1,3 +1,5 @@
+package nl.duo.tennis.comments;
+
 public class CommentDemo {
 
     public static void main(String[] args) {

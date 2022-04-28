@@ -31,7 +31,16 @@ public class App {
         String longString = stringBuilder.toString();
         String anotherString = stringBuilder.toString();
 
+        System.out.println(longString != anotherString);
+        System.out.println(longString.equals(anotherString));
+
         // intern.Werkt WEL vanaf java 8
         String dezeKomtDusWelOpDeConstantPool = v4.intern();
+
+        String intern1 = longString.intern();
+        String intern2 = anotherString.intern();
+
+        System.out.println(intern1 == intern2);
+        System.out.println(intern1.equals(intern2)); // altijd true als == true is
     }
 }

@@ -22,4 +22,9 @@ public class Ball {
     public void setColor(int color) {
         this.color = color;
     }
+
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println("De ball class wordt nu opgeruimd ... ");
+    }
 }

@@ -1,5 +1,7 @@
 package nl.duo.tennis.varargs;
 
+import java.util.Arrays;
+
 public class Calculator {
 
     public static int max(int first, int... rest) {
@@ -12,5 +14,18 @@ public class Calculator {
         }
 
         return max;
+    }
+
+    public static void printNames(String firstName, String... otherMembers) {
+
+        System.out.print(firstName);
+        for (String other : otherMembers) {
+            System.out.print(", "+other);
+        }
+        System.out.println();
+
+        System.out.println(otherMembers);
+
+        System.out.println(Arrays.toString(otherMembers));
     }
 }

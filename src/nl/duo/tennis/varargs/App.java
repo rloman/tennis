@@ -13,5 +13,7 @@ public class App {
         grootste = Calculator.max(18);
         System.out.println(grootste);
 
+        Calculator.printNames("Tom", "David", "Sebastiaan", "Annelot");
+
     }
 }

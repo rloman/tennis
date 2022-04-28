@@ -27,11 +27,8 @@ public class Wrapper {
         int j = Integer.parseInt(invoerVanuitEenWebSchermBijDuo);
         System.out.println(j + 1);
 
-
-
-
-
-
+    
+           // => Wrapper class types
         /*
         byte => Byte
         short => Short

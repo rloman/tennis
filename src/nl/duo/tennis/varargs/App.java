@@ -14,6 +14,5 @@ public class App {
         System.out.println(grootste);
 
         Calculator.printNames("Tom", "David", "Sebastiaan", "Annelot");
-
     }
 }

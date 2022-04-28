@@ -36,10 +36,5 @@ public class App {
 
         LocalDateTime now = LocalDateTime.now();
         System.out.println(now);
-
-        
-
-
-
     }
 }

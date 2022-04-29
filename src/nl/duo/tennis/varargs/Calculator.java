@@ -16,6 +16,14 @@ public class Calculator {
         return max;
     }
 
+    // compile error. ook voor andere types geldt: er kan max 1 vararg zijn
+    // en altijd als laatste als hij er is
+    /*
+    public static void error(int... numbers, String... names) {
+
+    }
+     */
+
     public static void printNames(String firstName, String... otherMembers) {
 
         System.out.print(firstName);

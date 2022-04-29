@@ -6,8 +6,8 @@ public class StringFormatting {
 
     public static void main(String[] args) {
 
-        String voornaam = "Raymond";
-        String achternaam = "Loman";
+        String voornaam = "Michel";
+        String achternaam = "Doe";
 
         System.out.println("Mijn naam is: "+ achternaam +", "+ voornaam);
         System.out.printf("Mijn naam is: %s, %s%n", achternaam, voornaam);
@@ -17,11 +17,11 @@ public class StringFormatting {
                 voornaam, 53);
         System.out.printf("Mijn naam is: %s, %s en mijn leeftijd is: %03d. %n",
                 achternaam,
-                "Raymond", 6);
+                "Michel", 6);
 
         String welkomstTekst = String.format("Mijn naam is: %s, %s en mijn leeftijd is: %03d. %n",
                 achternaam,
-                "Raymond", 6);
+                "Michel", 6);
 
         System.out.println(welkomstTekst);
 

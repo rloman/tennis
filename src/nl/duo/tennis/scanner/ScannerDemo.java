@@ -33,7 +33,7 @@ stderr::= printen naar een foutscherm. Wordt rood als je hier iets naar print.
                     System.err.println("Dat is geen cijfer");
                     s = new Scanner(System.in);
                 }
-            }while(input == -1);
+            } while(input == -1);
         }
     }
 }

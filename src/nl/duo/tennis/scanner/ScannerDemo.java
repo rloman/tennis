@@ -1,5 +1,7 @@
 package nl.duo.tennis.scanner;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -12,8 +14,29 @@ stderr::= printen naar een foutscherm. Wordt rood als je hier iets naar print.
  */
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+        readFromFile();
         readFromStdin();
+    }
+
+    private static void readFromFile() throws FileNotFoundException {
+
+        // tries to read from stdin
+        Scanner s = new Scanner(new File("inputfile.txt"));
+
+        double d = s.nextDouble();
+        String firstName = s.next();
+        String lastName = s.next();
+        boolean isMale = s.nextBoolean();
+
+        System.out.printf("Name: %s, lastname: %s, sexe: %b, sexe: %s, rating: %f%n",
+                firstName, lastName, isMale, isMale ? "Man" : "Vrouw", d);
+
+        isMale = s.nextBoolean();
+
+        System.out.printf("Name: %s, lastname: %s, sexe: %b, sexe: %s, rating: %f%n",
+                firstName, lastName, isMale, isMale ? "Man" : "Vrouw", d);
+
     }
 
     private static void readFromStdin() {

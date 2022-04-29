@@ -25,8 +25,12 @@ public class StringFormatting {
 
         System.out.println(welkomstTekst);
 
-        double breuk = 341.53434;
+        double breuk =  12341.53434;
 
+        // let op: 7 is hier de TOTALE lengte inclusief de digitale punt
+        // en dat betekent hier dus 3 voor en 3 na de decimale punt
+        // en bij overflow aan de linkerkant wordt het langer
+        // ivm consistentie dus hier is het resultaat: 12341.534
         String label = String.format("Breuk is ongeveer %07.3f", breuk);
         System.out.println(label);
 

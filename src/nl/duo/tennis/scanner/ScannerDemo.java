@@ -20,13 +20,20 @@ stderr::= printen naar een foutscherm. Wordt rood als je hier iets naar print.
         // tries to read from stdin
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Voer een float in");
-        // leest int en als je wat anders invoert knalt ie
+        System.out.println("Voer een double in");
+        // leest double en als je wat anders invoert knalt ie
         double age = s.nextDouble();
         System.out.println(age);
 
         // lees wat anders
-        boolean b = s.nextBoolean();
+        System.out.println("Bent u fan van Derksen (true/false) =>");
+        boolean fanVanDerksen = s.nextBoolean();
+
+        if (fanVanDerksen) {
+            System.out.println("Ja zeker fan van Derksen");
+        } else {
+            System.out.println("Tuurlijk niet");
+        }
 
         // soort van ididoom om getal als rapportcijfer in te voeren
         int input = -1;
@@ -39,5 +46,7 @@ stderr::= printen naar een foutscherm. Wordt rood als je hier iets naar print.
                 s = new Scanner(System.in);
             }
         } while(input <1 || input > 10);
+
+        System.out.println("Rapportcijfer is: " + input);
     }
 }

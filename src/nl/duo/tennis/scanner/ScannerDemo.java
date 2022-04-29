@@ -22,17 +22,16 @@ stderr::= printen naar een foutscherm. Wordt rood als je hier iets naar print.
         System.out.println(age);
 
 
-        System.out.println("Voer een rapportcijfer in (1 t/m 10");
         // soort van ididoom om getal als rapportcijfer in te voeren
         int input = -1;
         while (input <1 || input > 10) {
+            System.out.print("Voer een rapportcijfer in (1 t/m 10) => ");
             do {
                 try {
                     input = s.nextInt();
                 } catch (InputMismatchException inputMismatchException) {
                     System.err.println("Dat is geen cijfer");
-//                    s = new Scanner(System.in);
-                    continue;
+                    s = new Scanner(System.in);
                 }
             }while(input == -1);
         }

@@ -12,12 +12,10 @@ public class App {
         System.out.println(Constants.VATPERCENTAGE);
 
 //        Constants.VATPERCENTAGE = 21.0; // kan dus niet
+
+        
+        // laat zien dat eerst de initblocks en dan de constructor wordt gerund
         Constants c = new Constants();
-
-
-
-
-
 
     }
 }

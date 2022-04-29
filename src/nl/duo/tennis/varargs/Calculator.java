@@ -16,7 +16,8 @@ public class Calculator {
         return max;
     }
 
-    // hartstikke vout
+    // compile error. ook voor andere types geldt: er kan max 1 vararg zijn
+    // en altijd als laatste als hij er is
     /*
     public static void error(int... numbers, String... names) {
 

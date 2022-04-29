@@ -43,13 +43,13 @@ stderr::= printen naar een foutscherm. Wordt rood als je hier iets naar print.
         // tries to read from stdin
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Voer een double in");
+        System.out.print("Voer een double in => ");
         // leest double en als je wat anders invoert knalt ie
         double age = s.nextDouble();
         System.out.println(age);
 
         // lees wat anders
-        System.out.println("Bent u fan van Derksen (true/false) =>");
+        System.out.print("Bent u fan van Derksen (true/false) => ");
         boolean fanVanDerksen = s.nextBoolean();
 
         if (fanVanDerksen) {

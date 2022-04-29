@@ -9,9 +9,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        // format now to NL format
         LocalDate now = LocalDate.now();
-
         System.out.println(now.format(DateTimeFormatter.ISO_DATE));
 
         LocalDateTime timestamp = LocalDateTime.now();
@@ -27,12 +25,13 @@ public class App {
         String r = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSXXX").format(zonedDateTime);
         System.out.println(r);
 
+
         // Remember for ISO8601 used to send a String and convert using Jackson to a Date v.v.
         r = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX").format(zonedDateTime);
-        System.out.println(r);
+
 
         ZonedDateTime back = ZonedDateTime.parse(r, DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX"));
-        System.out.println("back:"+back);
+        System.out.println(back);
 
         String otherWayToGetBack = back.toString();
         System.out.println(otherWayToGetBack.equals(r));

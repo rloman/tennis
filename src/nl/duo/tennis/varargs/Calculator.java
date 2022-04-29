@@ -16,6 +16,13 @@ public class Calculator {
         return max;
     }
 
+    // hartstikke vout
+    /*
+    public static void error(int... numbers, String... names) {
+
+    }
+     */
+
     public static void printNames(String firstName, String... otherMembers) {
 
         System.out.print(firstName);

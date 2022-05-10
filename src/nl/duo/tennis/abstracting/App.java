@@ -16,7 +16,7 @@ public class App {
 
         Animal p = new Parrit();
 
-        List<Animal> animals = new LinkedList<>();
+        List<Animal> animals = new LinkedList<>(); // of Arraylist Dus
         animals.add(h);
         animals.add(horse);
         animals.add(p);

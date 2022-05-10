@@ -21,6 +21,6 @@ public class Application {
         tv.switchChannel(5);
         tv.off();
 
-        Queue q = new LinkedList();
+        Queue q = new LinkedList(); // ja, een LinkedList heeft dus ook de vorm: Queue
     }
 }

@@ -1,6 +1,8 @@
 package nl.duo.tennis.abstracting;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class App {
 
@@ -14,10 +16,11 @@ public class App {
 
         Animal p = new Parrit();
 
-        ArrayList<Animal> animals = new ArrayList<>();
+        List<Animal> animals = new LinkedList<>();
         animals.add(h);
         animals.add(horse);
         animals.add(p);
+        animals.remove(horse);
 
         AnimalFeeder.feed(animals);
 

@@ -1,5 +1,8 @@
 package nl.duo.tennis.interfaces;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Application {
 
     // Maak hier een TV en zet hem aan, zet op kanaal 3 en zet uit.
@@ -17,5 +20,7 @@ public class Application {
         tv.on();
         tv.switchChannel(5);
         tv.off();
+
+        Queue q = new LinkedList();
     }
 }

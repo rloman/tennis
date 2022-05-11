@@ -16,12 +16,11 @@ public class App {
 
         Animal p = new Parrit();
 
-        List<Animal> animals = new LinkedList<>(); // of Arraylist Dus
+        List<Animal> animals = new ArrayList<>();
         animals.add(h);
         animals.add(horse);
         animals.add(p);
-        animals.remove(horse);
-
+      
         AnimalFeeder.feed(animals);
 
         Object o = new Horse();

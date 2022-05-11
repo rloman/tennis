@@ -10,6 +10,11 @@ public class AnimalFeeder {
     public static void feed(List<Animal> animals) {
         for(Animal animal : animals) {
             animal.eat();
+
+            if (animal instanceof Horse) {
+                Horse h = (Horse) animal;
+                h.giveMilk();
+            }
         }
     }
 }

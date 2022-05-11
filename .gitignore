@@ -4,5 +4,6 @@ out
 *.iml
 .idea
 *.txt
+runner.out
 !inputfile.txt
 !version.txt

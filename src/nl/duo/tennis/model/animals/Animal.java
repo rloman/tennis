@@ -1,4 +1,4 @@
-package nl.duo.tennis.abstracting;
+package nl.duo.tennis.model.animals;
 
 public abstract class Animal {
 

@@ -1,5 +1,7 @@
 package nl.duo.tennis.abstracting;
 
+import nl.duo.tennis.model.animals.Animal;
+import nl.duo.tennis.model.animals.Horse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

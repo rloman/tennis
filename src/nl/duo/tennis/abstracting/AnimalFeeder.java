@@ -1,6 +1,9 @@
 package nl.duo.tennis.abstracting;
 
-import java.util.ArrayList;
+import nl.duo.tennis.model.animals.Animal;
+import nl.duo.tennis.model.animals.Horse;
+import nl.duo.tennis.model.animals.Mammal;
+
 import java.util.List;
 
 public class AnimalFeeder {
@@ -14,6 +17,11 @@ public class AnimalFeeder {
             if (animal instanceof Horse) {
                 Horse h = (Horse) animal;
                 h.giveMilk();
+            }
+            // of eigenlijk nog beter. Want dan werkt het ook voor een Cow
+            if (animal instanceof Mammal) {
+                Mammal m = (Mammal) animal;
+                m.giveMilk();
             }
         }
     }

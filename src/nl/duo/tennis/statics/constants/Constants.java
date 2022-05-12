@@ -1,4 +1,4 @@
-package nl.duo.tennis.constants;
+package nl.duo.tennis.statics.constants;
 
 public class Constants {
 

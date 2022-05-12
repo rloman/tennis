@@ -1,4 +1,4 @@
-package nl.duo.tennis.String;
+package nl.duo.tennis.string;
 
 public class MethodsOfString {
 

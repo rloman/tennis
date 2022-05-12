@@ -1,4 +1,4 @@
-package nl.duo.tennis.interfaces;
+package nl.duo.tennis.interfaces.television;
 
 public class Samsung implements Television {
 

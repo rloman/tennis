@@ -1,4 +1,4 @@
-package nl.duo.tennis.access.staticimports;
+package nl.duo.tennis.statics.staticimports;
 
 //import static java.lang.Integer.*;
 //import static java.lang.Long.*;

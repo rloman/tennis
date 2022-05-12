@@ -1,6 +1,5 @@
 package nl.duo.tennis.sorting;
 
-import java.net.SocketTimeoutException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

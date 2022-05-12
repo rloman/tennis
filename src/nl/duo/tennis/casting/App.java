@@ -9,6 +9,8 @@ public class App {
 
         a = (int) l; // dangerous
 
+        // see more casting demo in AnimalFeeder class
+
 
         System.out.println(a); 
     }

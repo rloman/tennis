@@ -9,6 +9,27 @@ public class Player {
 
     private String name;
     private Date birthDate;
+    private boolean sexe;
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public boolean isSexe() {
+        return sexe;
+    }
+
+    public void setSexe(boolean sexe) {
+        this.sexe = sexe;
+    }
+
+    public void setAantalWedstrijdenGespeelt(int aantalWedstrijdenGespeelt) {
+        this.aantalWedstrijdenGespeelt = aantalWedstrijdenGespeelt;
+    }
 
     // eigenschappen, fields, instance variable(s)
     int aantalWedstrijdenGespeelt = 0;

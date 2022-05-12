@@ -6,4 +6,4 @@ out
 *.txt
 runner.out
 !inputfile.txt
-!version.txt
+!releasenotes.txt

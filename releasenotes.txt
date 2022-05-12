@@ -1,0 +1,41 @@
+== Release notes
+
+.v1.0.0 (12-05-2022)
+* Some small moving of classes
+* Bugfix: forgot to set back the Serializable after deleting it
+
+.v0.2.0 (11-05-2022)
+* Add demo code for final part of chapter 5 regarding interfaces
+* Add demo code including improvement after showcasing in the lesson. Code is cleaner
+* Add demo code for polymorfism
+* Add demo code for Sorting
+* Add interface
+* Add demo code for Unittesting with Junit 5.7.0
+* Add demo code for abstract class
+* Add overriding, constructor chaining and compiler enhancements
+* Improve structure and add some comments
+* Add demo code for Inheritance
+* Add demo code for Lamba expressions / Predicate
+* Add demo code with Bunny for Creating Constructors
+
+.v0.1.0 (29-04-2022)
+* Add Version info (later renamed to releasenotes.txt)
+* Beter cursor in Scanner usage
+* Add more scanner demo with file.
+* Simple demo overloading
+* Add scanner demo code
+* Add demo code for chapter 4: static, static imports, final
+* Add some notes for decimal formatting
+* Add formatting with printf and String.format
+* Add formatting
+* Add demo code for varargs, List and LocalDate and LocalDateTime
+* Add arrays and varargs
+* Add demo code for Chapter 1, 2 en 3
+* Add demo code for loops
+* Add if else and switch
+* Add boolean operators and if else
+* Add demo code for operators
+* Add more regarding  constructors
+* Add constructors
+* Add more structure by introducing packages and imports
+* Initial load: Demo code for main, fields, getters and setters and part I of business methods

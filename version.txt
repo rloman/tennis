@@ -1,1 +1,18 @@
-v0.1.0 :: Release after week 25-04 t/m 29-04-2022 te Groniningen
+== Release notes
+
+.v0.2.0 (11-05-2022)
+* Add demo code for final part of chapter 5 regarding interfaces
+* Add demo code including improvement after showcasing in the lesson. Code is cleaner
+* Add demo code for polymorfism
+* Add demo code for Sorting
+* Add interface
+* Add demo code for Unittesting with Junit 5.7.0
+* Add demo code for abstract class
+* Add overriding, constructor chaining and compiler enhancements
+* Improve structure and add some comments
+* Add demo code for Inheritance
+* Add demo code for Lamba expressions / Predicate
+* Add demo code with Bunny for Creating Constructors
+
+.v0.1.0
+ * Release after week 25-04 t/m 29-04-2022 te Groniningen

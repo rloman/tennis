@@ -1,4 +1,4 @@
-package nl.duo.tennis.interfaces;
+package nl.duo.tennis.interfaces.television;
 
 import java.util.LinkedList;
 import java.util.Queue;

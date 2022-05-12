@@ -1,4 +1,4 @@
-package nl.duo.tennis.loops.whileloop;
+package nl.duo.tennis.flowcontrol.loops.whileloop;
 
 public class App {
 

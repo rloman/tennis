@@ -1,4 +1,4 @@
-package nl.duo.tennis.constructors_issues;
+package nl.duo.tennis.constructors.constructors_issues;
 
 public class Animal {
 

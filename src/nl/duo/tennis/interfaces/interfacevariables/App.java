@@ -14,11 +14,3 @@ public class App {
     }
 }
 
-class Poedel implements InterfaceVarDemo {
-
-
-    @Override
-    public void foo() {
-
-    }
-}

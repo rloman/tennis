@@ -1,4 +1,4 @@
-package nl.duo.tennis.String;
+package nl.duo.tennis.string;
 
 import nl.duo.tennis.model.Ball;
 

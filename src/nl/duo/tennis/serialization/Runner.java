@@ -2,7 +2,7 @@ package nl.duo.tennis.serialization;
 
 import java.io.Serializable;
 
-public class Runner  {
+public class Runner implements Serializable {  // see what happens if you remove 'implements ...'
 
     private String name;
     private int maxDistance;

@@ -26,14 +26,18 @@ public class PlayerServiceTest {
 
     @Test
     public void testGetPlayerById() {
-        // Mocking
+        // Given this Mocking
         {
             Player mock = new Player();
             mock.setName("Nadal");
             Mockito.when(this.playerRepository.getPlayer(3L)).thenReturn(mock);
         }
 
+        // When
         Player p = playerService.getPlayerById(3L);
+
+        // Then
         Assertions.assertEquals("Nadal", p.getName());
+        Mockito.verify(this.playerRepository, Mockito.times(1)).getPlayer(3L); // Check that playerrepo::getPlayer is called with argument 3L
     }
 }
